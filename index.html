@@ -1,43 +1,57 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hindi News Blog</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Hindi News Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo">हिंदी समाचार</div>
-        <nav>
-            <ul>
-                <li><a href="#home">होम</a></li>
-                <li><a href="#news">समाचार</a></li>
-                <li><a href="#lifestyle">लाइफस्टाइल</a></li>
-                <li><a href="#astrology">ज्योतिष</a></li>
-                <li><a href="#contact">संपर्क करें</a></li>
-            </ul>
+    <header class="header">
+        <div class="logo">दीवाला</div>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Breaking News</a>
+            <a href="#">News</a>
+            <a href="#">Relationships</a>
+            <a href="#">Quotes</a>
+            <a href="#">Astrology</a>
+            <a href="#">Contact Us</a>
         </nav>
     </header>
-    <main>
-        <section id="news">
-            <h2>ताज़ा खबरें</h2>
-            <div class="article">
-                <h3>हेडलाइन</h3>
-                <p>यहां पर समाचार का विवरण होगा।</p>
-            </div>
-        </section>
-        <section id="lifestyle">
-            <h2>लाइफस्टाइल</h2>
-            <p>स्वास्थ्य, फैशन, और बहुत कुछ।</p>
-        </section>
-        <section id="astrology">
-            <h2>ज्योतिष</h2>
-            <p>आपका दैनिक राशिफल यहां देखें।</p>
-        </section>
-    </main>
-    <footer>
-        <p>© 2025 हिंदी समाचार</p>
+
+    <section class="hero">
+        <div class="hero-content">
+            <img src="woman-image.jpg" alt="Woman" class="hero-image">
+            <h1>Hindi News</h1>
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div class="card news">
+            <h2>Breaking News</h2>
+            <p>Latest updates from around the world.</p>
+        </div>
+        <div class="card lifestyle">
+            <h2>Lifestyle</h2>
+            <p>Tips and advice for better living.</p>
+        </div>
+        <div class="card relationships">
+            <h2>Relationships</h2>
+            <p>Explore the dynamics of modern relationships.</p>
+        </div>
+        <div class="card quotes">
+            <h2>Quotes</h2>
+            <p>Inspirational words to brighten your day.</p>
+        </div>
+        <div class="card astrology">
+            <h2>Astrology</h2>
+            <p>Discover what the stars have in store for you.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025  - All rights reserved.</p>
     </footer>
 </body>
 </html>
